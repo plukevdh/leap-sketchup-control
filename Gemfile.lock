@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.0.3)
+    json (1.8.1)
+    leap-motion-ws (0.0.2)
+      json
+      websocket-eventmachine-client
+    websocket (1.1.2)
+    websocket-eventmachine-base (1.0.2)
+      eventmachine (~> 1.0)
+      websocket (~> 1.0)
+      websocket-native (~> 1.0)
+    websocket-eventmachine-client (1.0.1)
+      websocket-eventmachine-base (~> 1.0)
+    websocket-native (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  leap-motion-ws
